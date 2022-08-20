@@ -21,7 +21,7 @@ jobs:
     steps:
       - attach_workspace:
           at: /home/circleci
-      - run: cat output.txt
+      - run: cat /home/circleci/output.txt
 
 
 workflows:
